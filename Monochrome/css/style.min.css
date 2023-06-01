@@ -1,0 +1,675 @@
+@font-face {
+    font-family: 'NeutralFace';
+    src: url('../fonts/NeutralFace.otf');
+}
+
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url('../fonts/Manrope-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('../fonts/Manrope-Regular.ttf');
+}
+
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+    font-family: 'NeutralFace' sans-serif;
+}
+
+.sarch {
+    text-align: left;
+}
+/*Шапка*/
+header a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.ru {
+    color: black;
+    font-family: 'NeutralFace';
+}
+
+.en {
+    color: gray;
+    font-family: 'NeutralFace';
+    margin-left: 10px;
+}
+
+header main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.header2 a {
+    color: black;
+    margin-left: 50px;
+    font-family: 'NeutralFace'
+}
+
+/*Главная*/
+.home {
+    height: 690px;
+    max-width: 1265px;
+    margin: 0 auto;
+}
+
+.homee {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.homee h1 {
+    text-transform: uppercase;
+    font-size: 9.6em;
+    margin-left: 50px;
+    margin-top: -0px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.homee p {
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Manrope-Medium';
+}
+
+.home-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home1 {
+    width: 870px;
+    margin-left: 50px; 
+    margin-top: -90px;
+}
+
+.home2 {
+    width: 270px;
+    margin-left: 30px; 
+    margin-top: -90px;
+}
+
+/*Категории*/
+.everyone h1 {
+    text-transform: uppercase;
+    font-size: 4.9em;
+    margin-left: 50px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.everyone{
+    height: 650px;
+    max-width: 1265px;
+    margin: 0 auto; 
+}
+
+.everyone img {
+    margin-top: -70px;
+}
+
+.everyone main {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 4rem;
+}
+
+.everyone article {
+    padding: 3em;
+}
+
+/*Новая коллекция*/
+.collection {
+    height: 700px;
+    max-width: 1265px;
+    margin: 0 auto;
+    background-image: url(../img/6.jpg); 
+}
+
+.collection-h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 4.2em;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.collections {
+    display: grid;
+}
+
+.collection-p {
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 18px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.collection a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-1 {
+    margin-top: 120px;
+}
+
+.el-2 {
+    grid-column: 1;
+}
+
+.el-3 {
+    grid-column: 1;
+    margin: 0 auto;
+}
+
+/*Новbyrb ctpjyf*/
+.new {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.new h1 {
+    font-size: 4.8em;
+    text-transform: uppercase;
+    margin-left: 35px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.new h2 {
+    font-size: 4.8em;
+    text-transform: uppercase;
+    margin-left: 540px;
+    margin-top: -70px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
+    padding: 20px;
+    height: 550px;
+    margin-top: -40px;
+    margin-left: 22px;
+}
+
+.news {
+    font-size: 20px;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
+
+.box2 {
+    grid-column: 3;
+    grid-row: 1 / 4;
+}
+
+.box3 {
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
+
+.box2 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 30px;
+}
+
+.box5 {
+    margin-top: 15px;
+}
+
+/*Карточка товара*/
+.green {
+    max-width: 1265px;
+    margin: 0 auto;
+    height: 800px;
+    margin-top: 60px;
+}
+
+.greens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
+    padding: 20px;
+    height: 550px;
+    margin-left: 25px;
+}
+
+.el-5 {
+    grid-column: 2;
+    font-size: 3.8em;
+    margin-top: -20px;
+    margin-left: 70px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-6 {
+    grid-column: 2;
+    margin-left: 505px;
+    margin-top: -95px;
+}
+
+.el-7 {
+    grid-column: 2;
+    margin-left: 540px;
+    margin-top: -215px;
+    font-size: 18px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-8 {
+    grid-column: 2;
+    margin-left: 70px;
+    font-size: 1.4em;
+    margin-top: -170px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-9 {
+    grid-column: 2;
+    margin-left: 70px;
+    margin-top: -100px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-10 {
+    grid-column: 2;
+    margin-top: -113px;
+    margin-left: 430px;
+    color: black;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-11 {
+    grid-column: 2;
+    margin-left: 70px;
+    margin-top: -100px;
+    margin-bottom: 70px;
+    padding: 16px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.size {
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+    color: grey;
+}
+
+.el-12 {
+    grid-column: 2;
+    margin-left: 70px;
+    margin-top: -40px;
+    font-size: 2.8em;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-13 {
+    grid-column: 2;
+    margin-left: 260px;
+    margin-top: -105px;
+    margin-bottom: 65px;
+    padding-left: 15px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.button3 {
+    grid-column: 2;
+    background-color: black;
+    border: 1px solid white;
+    padding: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 70px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-14 {
+    grid-column: 2;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-15 {
+    grid-column: 2;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: -62px;
+    color: grey;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-16 {
+    grid-column: 2;
+    margin-left: 330px;
+    font-size: 20px;
+    margin-top: -77px;
+    color: grey;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-17 {
+    grid-column: 2;
+    margin-left: 70px;
+    font-size: 17px;
+    margin-top: -50px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+/*Преимущества*/
+.benefits {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.benefits main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 4rem;
+    max-width: 1233px;
+    margin: 0 auto;
+}
+
+.benefits article {
+    padding: 2em;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.benefit {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.benefitss {
+    font-size: 15px;
+}
+
+/*О нас*/
+.about {
+    max-width: 1220px;
+    margin: 0 auto;
+    height: 720px;
+    margin-top: 120px;
+}
+
+.abouts {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
+    padding: 20px;
+    height: 550px;
+}
+
+.abouts h1 {
+    text-transform: uppercase;
+    margin-top: 80px;
+    font-size: 4em;
+    margin-left: -90px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.abouts p {
+    font-size: 19px;
+    margin-left: -90px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+/*Форма подписи*/
+.mailing {
+    background-color: black;
+    color: white;
+    height: 950px;
+}
+
+.mailing main {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
+}
+
+.mailing a {
+    text-decoration: none;
+    color: black;
+}
+
+.button2 {
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -190px;
+    margin-bottom: 130px;
+}
+
+.mailing h1 {
+    font-size: 6em;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.mailing h2 {
+    font-size: 5.8em;
+    margin-top: 150px;
+    margin-left: -250px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-18 {
+    grid-column: 1;
+    margin-top: 180px;
+    font-size: 22px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-19 {
+    grid-column: 1;
+    margin-top: 230px;
+}
+
+.el-20 {
+    grid-column: 2;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.text-field {
+    margin-bottom: 1rem;
+}
+
+.text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.text-field__input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #bdbdbd;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.text-field__input::placeholder {
+    color: #bdbdbd;
+    opacity: 0.4;
+}
+
+.el-21 {
+    grid-column: 2;
+    margin-top: -440px;
+    margin-left: 50px;
+}
+
+.el-22 {
+    grid-column: 2;
+    margin-top: -340px;
+    margin-left: 50px;
+}
+
+.el-23 {
+    grid-column: 2;
+    margin-top: -240px;
+    margin-left: 50px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-24 {
+    grid-column: 2;
+    margin-top: -220px;
+    margin-left: 50px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-25 {
+    grid-column: 2;
+    margin-top: -235px;
+    margin-left: 240px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-26 {
+    grid-column: 2;
+    margin-top: -250px;
+    margin-left: 430px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-27 {
+    grid-column: 2;
+    margin-left: 50px;
+    margin-top: -220px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+.el-28 {
+    grid-column: 2;
+    margin-left: 50px;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
+
+/*Подвал*/
+footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+footer article {
+    padding: 2em;
+    font-family: 'Manrope-Regular';
+    font-weight: normal;
+}
